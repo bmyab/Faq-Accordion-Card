@@ -10,6 +10,8 @@
   font-size: 1.5rem;
   font-weight: 500;
 }
+.accordion .label:hover{
+  color: var(--Orange)
 .accordion .container.active .label{
   font-weight: 700;
 }
