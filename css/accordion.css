@@ -9,9 +9,11 @@
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 500;
+  transition : color 0.2s ease-in;
 }
 .accordion .label:hover{
-  color: var(--Orange)
+  color: var(--Soft-red);
+}
 .accordion .container.active .label{
   font-weight: 700;
 }
